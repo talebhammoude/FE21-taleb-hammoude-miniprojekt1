@@ -1,9 +1,5 @@
 const div = document.createElement("div");
-const div2 = document.createElement("div");
 
-const span1 = document.createElement("span");
-const span2 = document.createElement("span");
-const span3 = document.createElement("span");
 
 document.body.appendChild(div);
 
@@ -20,12 +16,29 @@ for (let i=0; i<5; i++) {
     
 }
 
+//==========================================================================================================================================//
+
+
+const div2 = document.createElement("div");
+
+const span1 = document.createElement("span");
+const span2 = document.createElement("span");
+const span3 = document.createElement("span");
+
+
 
 document.body.appendChild(div2);
+div2.setAttribute("style", "display: flex; padding: 20px; border: 2px solid gray;");
+
 
 div2.appendChild(span1);
+span1.setAttribute("style", "margin: auto; padding: 10px; border: 7px solid gray;");
+
 div2.appendChild(span2);
+span2.setAttribute("style", "margin: auto; padding: 10px; border: 7px solid gray;");
+
 div2.appendChild(span3);
+span3.setAttribute("style", "margin: auto; padding: 10px; border: 7px solid gray;");
 
 
 // let titlesArray = ["h6", "h4", "h3", "h2", "h1"];
